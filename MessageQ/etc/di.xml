@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Tejas\MessageQ\Api\ProductImportInterface"
+                type="Tejas\MessageQ\Model\ProductImport" />
+    <preference for="Tejas\MessageQ\Api\ProductInterface"
+                type="Tejas\MessageQ\Model\Product" />
+</config>
